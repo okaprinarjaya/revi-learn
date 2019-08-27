@@ -1,0 +1,40 @@
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+
+# GIT
+*.orig
+
+# OS related file
+.DS_STORE
+.DS_Store
+
+# dependencies
+*.swp
+node_modules
+coverage
+
+# editor
+.idea
+.vscode
+.scannerwork/
+
+# environment config file
+.env
+
+# build related file
+public/jancuk.bundle.js
+public/main.css
+.babelCache
+.happypack
+build/*
+webpack-stats.json
+
+dump.rdb
+database.sqlite
+
+logs/
+*.report.html
+*.log
+*.log.*.gz
+
+!.gitkeep
